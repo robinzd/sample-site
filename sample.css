@@ -40,6 +40,7 @@ a.right.align{
     border: 1px solid black;
     display: flex;
     margin-left: 20px;
+    margin-top: 60;
   }
   
   #box1 {
@@ -83,8 +84,19 @@ button.btn.waves-effect.waves-light{
 
 
 h1{
-    margin-left: 560px;
-    margin-top: -50px;
+    margin-left: 580px;
+    margin-top: -30px;
+    font-size: 50px;
 }
+
+
+a.brand-logo{
+position: 25px;
+left: 25px;
+}
+
+
+
+
 
 
