@@ -10,7 +10,7 @@ a.right.align{
     content: 'Acqusition';
     text-align: center;
     display: inline-block;
-    background:limegreen;
+    background:skyblue;
     border: 1px solid #999;
     border-radius: 3px;
     padding: 5px 8px;
@@ -21,8 +21,8 @@ a.right.align{
     text-shadow: 1px 1px #fff;
     font-weight: 700;
     font-size: 10pt;
-    width: 150px;
-    margin-left: 70px;
+    width: 200px;
+    margin-left: 60px;
     margin-right: 20px;
   }
   .custom-file-input:hover::before {
@@ -59,34 +59,52 @@ button.btn.waves-effect.waves-light{
 }
 
 #button{
-    margin-left: 90px;
+    margin-left: 80px;
+   
+    
+
+}
+
+a.btn.waves-effect.waves-light.blue.accent-4{
+  padding-right: 40px;
+    padding-left: 40px;
+}
+
+button.btn.waves-effect.waves-light.blue.accent-4{
+  padding-left: 40px;
+  padding-right: 40px;
+
 }
 
 #button1{
-    margin-left:230px;
+    margin-left:200px;
     margin-top: -40px;
 }
 
 
 #button2{
-    margin-left: 95px;
-}
+    margin-left: 85px;
+  }
 
 #button3{
-    margin-left:250px;
+    margin-left:230px;
     margin-top: -40px;
+ 
+}
+
+button.btn.waves-effect.waves-light.blue.accent-4{
+  padding-left: 50px;
+  padding-right:50px;
 }
 
 
-#link{
-    margin-right: 300px;
-}
 
 
 h1{
     margin-left: 580px;
     margin-top: -30px;
     font-size: 50px;
+    color:white;
 }
 
 
@@ -95,8 +113,31 @@ position: 25px;
 left: 25px;
 }
 
+body{
+  background-color:rgb(33, 33, 119);
+}
+ 
 
 
 
+.input-field.col.s6.offsetl4{
+  margin-left: 950px;
+  width:30%;
+}
+
+
+h4#features\ button{
+  margin-left: 40%;
+  color:white;
+}
+
+footer{
+  position:fixed;
+	bottom: 0;
+  left:0;
+  width:100%;
+	
+
+}
 
 

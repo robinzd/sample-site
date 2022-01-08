@@ -20,85 +20,110 @@
 
 
     <!-- navbar -->
-    <nav class="nav ">
+    <nav class="nav indigo accent-4 ">
         <div class="container">
-            <a href="#" class=" button1 right align">Home</a>
+            <a href="#" class=" right align">Home</a>
             <a href="#" class="right align">Contact Us</a>
             <a class="brand-logo">Identification of brain tumor deduction using Deep CNN</a>
         </div>
 
     </nav><br><br>
 
-    <!-- photo upload button -->
-    <section>
+   <!-- upload buttons -->
+    <div class="row">
+        <div class="col s8 ">
+            <input type="file" class="custom-file-input">
 
-
-
-        <input type="file" class="custom-file-input">
-
-        <div>
-
-            <h1>Result
-            </h1>
-
-        </div>
-
-        <form>
-            <div id="link">
-                <h3 class="right" type="submit" name="action">Features
-                </h3>
-                
-        
-            </div>    
-        </form> 
-        
-    </section><br><br>
-
-    <!-- photo section -->
-    <section>
-
-        <div id="box">
-        </div>
-        <div id="box1">
-
-        </div>
-    </section><br><br>
-
-    <!-- buttons1 -->
-    <section>
-
-        <div id="button">
-            <a class="btn waves-effect waves-light " type="submit" name="action">Pre Processing
-            </a>
-        </div>
-
-        <div id="button1">
-            <button class="btn waves-effect waves-light button1" type="submit" name="action">Feauters Extraction
-            </button>
             <div>
 
-    </section><br><br><br>
+                <h1>Result
+                </h1>
+           </div>
 
-    <!-- buttons2 -->
-    <section>
 
-        <div id="button2">
-            <a class="btn waves-effect waves-light " type="submit" name="action">Segmentation
-            </a>
+            <!-- photo section -->
+            <section>
+
+                <div id="box">
+                </div>
+                <div id="box1">
+
+                </div>
+            </section><br><br>
+
+            <!-- buttons1 -->
+            <section>
+
+                <div id="button">
+                    <a class="btn waves-effect waves-light blue accent-4  " type="submit" name="action">Pre Processing
+                    </a>
+                </div>
+
+                <div id="button1">
+                    <button class="btn waves-effect waves-light blue accent-4 " type="submit" name="action">Featuers
+                        Extraction
+                    </button>
+                    <div>
+
+            </section><br><br><br>
+
+
+           
+
+
+            <!-- buttons2 -->
+            <section>
+
+                <div id="button2">
+                    <a class="btn waves-effect waves-light blue accent-4  " type="submit" name="action">Segmentation
+                    </a>
+                </div>
+
+                <div id="button3">
+                    <button class="btn waves-effect waves-light blue accent-4 button3 " type="submit"
+                        name="action">classification
+                    </button>
+                    <div>
+
+
+            </section><br><br>
         </div>
+        <div class="col s3">
 
-        <div id="button3">
-            <button class="btn waves-effect waves-light button1" type="submit" name="action">classification
-            </button>
-            <div>
 
-    </section><br><br>
+
+
+            <form>
+                <!-- <div class="row"> -->
+                <h4 id="features button">Features</h4>
+                <div class="input-field row">
+                    <input id="mse" type="text">
+                    <label for="mse">MSE</label>
+                </div>
+                <div class="input-field row">
+                    <input id="pnsr" type="text">
+                    <label for="pnsr">PNSR</label>
+                </div>
+                <div class="input-field row">
+                    <input id="snr" type="text">
+                    <label for="snr">SNR</label>
+                </div>
+                <!-- </div> -->
+            </form>
+
+
+
+
+
+
+        </div>
+    </div>
 
 
     <!-- footer -->
     <footer>
         <div class="footer-copyright grey darken-4">
-            <div class="container center-align white-text">&copy;2019 Deep CNN</div>
+            <div class="container center-align white-text">&copy;2021 Ibots Inc</div>
         </div>
     </footer>
 
